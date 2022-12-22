@@ -43,7 +43,7 @@ public class RSA_HomepageTest extends RSA_BaseTest {
 		String msg = obj.ErrMsg();
 		Assert.assertEquals(msg, "* Incorrect username or password");
 		System.out.println(msg);
-		// driver.quit();
+		driver.quit();
 		// assert.assertEquals(obj.ErrMsg(), "");
 	}
 }
